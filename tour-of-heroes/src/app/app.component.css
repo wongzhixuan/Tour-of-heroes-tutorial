@@ -1,0 +1,14 @@
+.active{
+  color: white;
+  background-color: black;
+}
+.primary{
+  background-color: #e8e8e8;
+}
+.herolink{
+  color: #3d3d3d;
+}
+mat-toolbar a:hover{
+  color: white;
+  background-color: #42545C;
+}

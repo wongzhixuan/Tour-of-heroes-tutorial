@@ -1,0 +1,24 @@
+<mat-toolbar class="primary">
+  <div fxLayout fxLayoutGap="20px">
+    <h1 fxFlex>{{ title }}</h1>
+
+    <a
+      mat-button
+      class="herolink"
+      routerLink="/dashboard"
+      routerLinkActive="active"
+      fxFlex
+      >Dashboard</a
+    >
+    <a
+      mat-button
+      class="herolink"
+      routerLink="/heroes"
+      routerLinkActive="active"
+      fxFlex
+      >Heroes</a
+    >
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
